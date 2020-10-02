@@ -1,0 +1,40 @@
+{
+  "name": "js-plugin-cli",
+  "version": "1.0.0",
+  "description": "A lightweight javascript plugin CLI.",
+  "main": "./bin/index.js",
+  "bin": {
+    "js-plugin-cli": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "zpfz/js-plugin-cli",
+  "bugs": "https://github.com/zpfz/js-plugin-cli/issues",
+  "keywords": [
+    "js-plugin-cli",
+    "js",
+    "plugin",
+    "js-plugin",
+    "starter"
+  ],
+  "author": "Feng L.H.",
+  "homepage": "https://github.com/zpfz/js-plugin-cli",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "co": "^4.6.0",
+    "commander": "^4.1.1",
+    "download": "^8.0.0",
+    "fs-extra": "^9.0.1",
+    "handlebars": "^4.7.6",
+    "inquirer": "^7.3.3",
+    "log-symbols": "^3.0.0",
+    "ora": "^5.1.0",
+    "thunkify": "^2.1.2",
+    "update-notifier": "^4.1.1"
+  },
+  "engines": {
+    "node": ">=8.6"
+  }
+}
