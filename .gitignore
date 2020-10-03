@@ -70,3 +70,4 @@ _site
 # useless files
 .bak
 template/
+config.json

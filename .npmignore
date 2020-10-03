@@ -71,3 +71,4 @@ _site
 .bak
 tpl/
 template/
+config.json
